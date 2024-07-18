@@ -1,4 +1,4 @@
-package stringprograms;
+package string_programs;
 
 public class RevString_Approach1 {
 	public static void main(String[] args) {

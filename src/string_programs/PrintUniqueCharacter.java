@@ -1,4 +1,4 @@
-package stringprograms;
+package string_programs;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -6,6 +6,9 @@ import java.util.Map.Entry;
 import java.util.Set;
 
 public class PrintUniqueCharacter {
+	
+	
+	
 	public static void main(String[] args) {
 		String s="india";
 		HashMap<Character, Integer>map=new HashMap();

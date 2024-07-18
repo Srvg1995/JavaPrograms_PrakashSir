@@ -1,4 +1,4 @@
-package stringprograms;
+package string_programs;
 
 import java.util.HashMap;
 import java.util.LinkedHashMap;
@@ -6,11 +6,11 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-public class PrintUniqueString {
+public class PrintDuplicateString {
 	public static void main(String[] args) {
 		String s="welcome to tp welcome to gc18";
 		String str[]=s.split(" ");
-		LinkedHashMap<String, Integer>map=new LinkedHashMap();
+		LinkedHashMap<String, Integer>map=new LinkedHashMap(); //instead of 'HashMap',we go for 'LinkedHashMap',bcz 'LinkedHashMap' will maintain the insertion order.
 		for(int i=0;i<str.length;i++) 
 		{
 			String word = str[i];
@@ -26,9 +26,9 @@ public class PrintUniqueString {
 
 		for(Map.Entry<String, Integer>data:map.entrySet())  //entrySet() is using here
 		{
-			if(data.getValue()==1)
+			if(data.getValue()>1)
 			{
-				System.out.print(data.getKey()+" ");
+				System.out.print(data.getKey()+" ");  //print not println
 			}
 		}
 	}

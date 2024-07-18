@@ -1,4 +1,4 @@
-package stringprograms;
+package string_programs;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;
@@ -18,7 +18,7 @@ public class RemoveDuplicateString_UniqueString {
 		}
 		for(String st:hs)
 		{
-			System.out.print(st+" ");
+			System.out.print(st+" ");  //print not println
 		}
 	}
 }

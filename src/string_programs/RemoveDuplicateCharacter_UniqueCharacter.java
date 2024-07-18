@@ -1,4 +1,4 @@
-package stringprograms;
+package string_programs;
 
 import java.util.HashMap;
 import java.util.LinkedHashSet;
@@ -10,14 +10,14 @@ import java.util.Set;
 public class RemoveDuplicateCharacter_UniqueCharacter {
 	public static void main(String[] args) {
 		String s="india";
-		LinkedHashSet<Character>hs=new LinkedHashSet();
+		LinkedHashSet<Character>hs=new LinkedHashSet();  //'LinkedHashSet' used here
 		for(int i=0;i<s.length();i++) 
 		{
 			hs.add(s.charAt(i));
 		}
 		for(Character c:hs)
 		{
-			System.out.print(c);
+			System.out.print(c);  //print not println
 		}
 	}
 }

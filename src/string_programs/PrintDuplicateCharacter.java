@@ -1,8 +1,11 @@
-package stringprograms;
+package string_programs;
 
 import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
-public class OccurenceOfACharacter {
+public class PrintDuplicateCharacter {
 	public static void main(String[] args) {
 		String s="india";
 		HashMap<Character, Integer>map=new HashMap();
@@ -18,7 +21,14 @@ public class OccurenceOfACharacter {
 				map.put(ch, 1);  //initially the 'value' will be 1 only for any 'key'
 			}
 		}
-		System.out.println(map);
+
+		for(Map.Entry<Character, Integer>data:map.entrySet())  //entrySet() is using here
+		{
+			if(data.getValue()>1)
+			{
+				System.out.println(data.getKey());
+			}
+		}
 	}
 }
 
