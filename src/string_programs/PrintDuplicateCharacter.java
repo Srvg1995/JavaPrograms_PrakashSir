@@ -22,7 +22,7 @@ public class PrintDuplicateCharacter {
 			}
 		}
 
-		for(Map.Entry<Character, Integer>data:map.entrySet())  //entrySet() is using here
+		for(Entry<Character, Integer>data:map.entrySet())  //entrySet() is belongs to TreeMap & returntype of 'entryset' is 'Entry' Interface. //entrySet is only can be used with Generic Collection
 		{
 			if(data.getValue()>1)
 			{

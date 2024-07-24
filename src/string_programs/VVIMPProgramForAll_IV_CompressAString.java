@@ -1,12 +1,12 @@
 package string_programs;
 
-public class VVIMPProgramForAllCompanyIV_CompressAString {
+public class VVIMPProgramForAll_IV_CompressAString {
 
 	public static void main(String[] args) {
 		String s="aabbccaa";  //Output:a2b2c2a2
-		int i;  //here 'i' is declared outside the for loop,sothat we can access it from anywhere.
+		int i;  //here 'i' is declared outside the for loop,sothat we can access it from outside of 'for loop'.
 		int count=1;
-		String op="";
+		String op=""; //op=output
 		for (i = 0; i<s.length()-1; i++) 
 		{
 			if(s.charAt(i)==s.charAt(i+1)) 
@@ -24,7 +24,6 @@ public class VVIMPProgramForAllCompanyIV_CompressAString {
 			op=op+s.charAt(i)+count;
 		}
 		System.out.println(op);
-
 	}
 }
 

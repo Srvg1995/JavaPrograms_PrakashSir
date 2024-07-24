@@ -3,16 +3,15 @@ package string_programs;
 public class SwapFirstAndLastWordsInAString {
 	public static void main(String[] args) {
 		String input="My name is Bheem";
-		String[] arr=input.split(" ");
-		String temp = arr[0];
-		arr[0]=arr[arr.length-1];
-		arr[arr.length-1]=temp;
+		String[] str=input.split(" ");
+		String temp = str[0]; //My
+		str[0]=str[str.length-1]; //Bheem
+		str[str.length-1]=temp; //My
 		
-		for(String s:arr)
+		for(String s:str)
 		{
 			System.out.print(s+" ");
 		}
-
 	}
 }
 

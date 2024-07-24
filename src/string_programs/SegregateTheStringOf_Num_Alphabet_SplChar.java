@@ -1,6 +1,6 @@
 package string_programs;
 
-public class StringOf_Num_Alphabt_SplChar {
+public class SegregateTheStringOf_Num_Alphabet_SplChar {
 	public static void main(String[] args) {
 		String input="a1b6^&jsjdh899+";
 		String special="";
@@ -14,7 +14,7 @@ public class StringOf_Num_Alphabt_SplChar {
 				alphabet+=ch;
 			}
 
-			else if(ch>='0' && ch<='9')
+			else if(ch>='0' && ch<='9') //This is character 0 & character 9, not integers 0&9.
 			{
 				number+=ch;
 			}

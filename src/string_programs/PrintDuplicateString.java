@@ -24,7 +24,7 @@ public class PrintDuplicateString {
 			}
 		}
 
-		for(Map.Entry<String, Integer>data:map.entrySet())  //entrySet() is using here
+		for(Entry<String, Integer>data:map.entrySet())  //entrySet() is using here
 		{
 			if(data.getValue()>1)
 			{

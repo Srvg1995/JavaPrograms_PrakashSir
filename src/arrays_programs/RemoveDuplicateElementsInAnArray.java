@@ -18,6 +18,6 @@ public class RemoveDuplicateElementsInAnArray {
 		for(Integer c:hs)
 		{
 			System.out.println(c);  
+		}
 	}
-}
 }

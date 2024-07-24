@@ -14,3 +14,27 @@ public class RevString_Approach4_WithoutUsing_LengthVariableAndLengthMethod {
 		System.out.println(rev);
 	}
 }
+
+
+
+
+
+/*
+String input="Pyramid";
+String op="";
+int i=0;
+while(true)
+{
+	try 
+	{
+		char ch=input.charAt(i);
+		op=ch+op;
+		i++;
+	}
+	catch(StringIndexOutOfBoundsException  s) 
+	{
+		break;
+	}
+}
+System.out.print(op);
+*/

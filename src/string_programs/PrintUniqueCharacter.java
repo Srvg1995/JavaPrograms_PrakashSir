@@ -7,8 +7,6 @@ import java.util.Set;
 
 public class PrintUniqueCharacter {
 	
-	
-	
 	public static void main(String[] args) {
 		String s="india";
 		HashMap<Character, Integer>map=new HashMap();
@@ -25,7 +23,7 @@ public class PrintUniqueCharacter {
 			}
 		}
 
-		for(Map.Entry<Character, Integer>data:map.entrySet())  //entrySet() is using here
+		for(Entry<Character, Integer>data:map.entrySet())  //entrySet() is using here
 		{
 			if(data.getValue()==1)
 			{

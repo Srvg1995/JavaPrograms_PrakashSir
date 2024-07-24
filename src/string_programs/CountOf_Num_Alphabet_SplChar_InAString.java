@@ -1,6 +1,6 @@
 package string_programs;
 
-public class CountOf_Num_Alphabt_SplChar_InAString {
+public class CountOf_Num_Alphabet_SplChar_InAString {
 
 	public static void main(String[] args) {
 		String s = "abcsAE123!@#";

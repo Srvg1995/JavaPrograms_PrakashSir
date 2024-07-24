@@ -12,7 +12,7 @@ public class LearningEntrySet {
 		for(Map.Entry<String,Integer>data:hs.entrySet()) {
 			System.out.print(data.getKey()+"-");
 			System.out.print(data.getValue());
-			System.out.println(data.getKey());
+			System.out.println();
 		}
 	}
 }
