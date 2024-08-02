@@ -14,7 +14,7 @@ public class ShiftZeros_ToRight {
 			}
 		}
 		for(int i:result) {
-			System.out.println(i+" ");
+			System.out.print(i+" ");
 		}
 	}
 }
