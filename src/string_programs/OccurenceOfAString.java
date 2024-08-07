@@ -7,7 +7,7 @@ public class OccurenceOfAString {
 		String s="welcome to tp welcome to gc18";
 		String str[]=s.split(" ");
 		HashMap<String, Integer>map=new HashMap();
-		for(int i=0;i<str.length;i++) 
+		for(int i=0;i<=str.length-1;i++) 
 		{
 			 String word = str[i];
 			if(map.containsKey(word))

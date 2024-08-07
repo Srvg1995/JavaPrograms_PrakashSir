@@ -1,6 +1,6 @@
 package string_programs;
 
-public class RevString_Approach4_WithoutUsing_LengthVariableAndLengthMethod {
+public class RevString_Approach6_WithoutUsing_LengthVariableAndLengthMethod {
 
 	public static void main(String[] args) {
 		String str = "india";

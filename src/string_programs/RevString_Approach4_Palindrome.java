@@ -1,6 +1,6 @@
 package string_programs;
 
-public class RevString_Approach6_Palindrome {
+public class RevString_Approach4_Palindrome {
 	public static void main(String[] args) {
 		String s="amma";
 		String rev="";

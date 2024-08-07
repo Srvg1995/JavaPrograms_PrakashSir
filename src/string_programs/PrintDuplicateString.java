@@ -10,7 +10,7 @@ public class PrintDuplicateString {
 	public static void main(String[] args) {
 		String s="welcome to tp welcome to gc18";
 		String str[]=s.split(" ");
-		LinkedHashMap<String, Integer>map=new LinkedHashMap(); //instead of 'HashMap',we go for 'LinkedHashMap',bcz 'LinkedHashMap' will maintain the insertion order.
+		LinkedHashMap<String, Integer>map=new LinkedHashMap(); //instead of 'HashMap',we go for 'LinkedHashMap'here,bcz 'LinkedHashMap' will maintain the insertion order.
 		for(int i=0;i<str.length;i++) 
 		{
 			String word = str[i];

@@ -7,7 +7,7 @@ import java.util.Set;
 
 public class PrintDuplicateCharacter {
 	public static void main(String[] args) {
-		String s="india";
+		String s="indiaa";
 		HashMap<Character, Integer>map=new HashMap();
 		for(int i=0;i<s.length();i++) 
 		{
@@ -22,7 +22,7 @@ public class PrintDuplicateCharacter {
 			}
 		}
 
-		for(Entry<Character, Integer>data:map.entrySet())  //entrySet() is belongs to TreeMap & returntype of 'entryset' is 'Entry' Interface. //entrySet is only can be used with Generic Collection
+		for(Entry<Character, Integer>data:map.entrySet())  //entrySet() is belongs to TreeMap & returntype of 'entryset' is 'Entry' Interface. //entrySet is only can be used with Generic Collection(ie.,<Character, Integer>)
 		{
 			if(data.getValue()>1)
 			{
